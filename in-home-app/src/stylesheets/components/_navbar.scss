@@ -17,6 +17,44 @@
 		text-align: center;
 	}
 
+	.in-home-form {
+		margin-top: -2rem;
+	}
+
+	input {
+		width: 427px;
+		height: 36px;
+		border-radius: 10px;
+		border: solid 1px #ffffff;
+		background-color: #ffffff;
+		margin-top: 0.5rem;
+		margin-left: 2rem;
+	}
+
+	input[type=text]::placeholder {
+		@include in-home-use-font-avenir-next-medium;
+		font-weight: 500;
+		font-size: 14px;
+		color: #d6d4d4;
+		padding-left: 15px;
+	}
+
+	input[type=password]::placeholder {
+		@include in-home-use-font-avenir-next-medium;
+		font-weight: 500;
+		font-size: 14px;
+		color: #d6d4d4;
+		padding-left: 15px;
+	}
+
+	input[type=submit] {
+		@include in-home-use-font-avenir-next-medium;
+		font-weight: 500;
+		font-size: 14px;
+		color: #d6d4d4;
+	}
+
+
 	.in-home-navbar{
 		position: relative;
 		margin-right: 7rem;
@@ -53,7 +91,7 @@
 			border-right: 0.8rem solid transparent;
 			border-bottom: 0.8rem solid white;
 			position: absolute;
-			bottom: 0;
+			bottom: 1rem;
 			left: 45.5px;
 			transition: left 300ms ease-out;
 		}
