@@ -1,0 +1,31 @@
+@import "../common/_shared.scss";
+
+.in-home-signup-page {
+	display: flex;
+	justify-content: center;
+
+	.in-home-logo {
+		width: 50px;
+		height: 53px;
+		margin-left: 30rem;
+		margin-right: 30rem;
+		margin-top: 8rem;
+	}
+}
+
+	// .sign-in-title, .sign-up-title, .reset-password-title {
+	// 	@include in-home-use-font-avenir-next-bold;
+	// 	text-align: center;
+	// 	color: #ffffff;
+	// 	font-size: 14px;
+	// }
+
+	// input {
+	// 	width: 527px;
+	//   height: 56px;
+	//   border-radius: 14px;
+	//   border: solid 1px #979797;
+	//   background-color: #ffffff;
+
+	//   margin-top: 5px;
+	// }

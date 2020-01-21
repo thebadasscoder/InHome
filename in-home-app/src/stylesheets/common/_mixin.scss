@@ -1,0 +1,17 @@
+@mixin _in-home-set-up-font($font-family, $font-weight, $font-style) {
+	font-family: $font-family;
+	font-style: $font-style;
+	font-weight: $font-weight;
+}
+
+//Avenir Next Medium 
+
+@mixin in-home-use-font-avenir-next-medium() {
+	@include _in-home-set-up-font('Avenir Next',normal, normal);
+	
+}
+
+//Avenir Next Bold 
+@mixin in-home-use-font-avenir-next-bold() {
+	@include _in-home-set-up-font('Avenir Next', bold, normal);
+}

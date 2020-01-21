@@ -1,0 +1,61 @@
+@import "../common/_shared.scss";
+
+
+.in-home-navbar-page {
+	display: flex;
+	flex-wrap: wrap;
+	margin-left: 25rem;
+
+
+	.in-home-title {
+		@include in-home-use-font-avenir-next-medium;
+		color: #ffffff;
+		font-size: 24px;
+		object-fit: contain;
+		margin-top: 3rem;
+		margin-left: 6rem;
+		text-align: center;
+	}
+
+	.in-home-navbar{
+		position: relative;
+		margin-right: 7rem;
+		margin-left: 2rem;
+
+		.sign-in-link {
+			@include in-home-use-font-avenir-next-medium;
+			display: inline-block;
+			padding: 2.5rem;
+			text-decoration: none;
+			color: #ffffff;
+		}
+
+		.sign-up-link {
+			@include in-home-use-font-avenir-next-medium;
+			display: inline-block;
+			padding: 2.5rem;
+			text-decoration: none;
+			color: #ffffff;
+		}
+
+		.forgot-link {
+			@include in-home-use-font-avenir-next-medium;
+			display: inline-block;
+			padding: 2.5rem;
+			text-decoration: none;
+			color: #ffffff;
+		}
+
+		.navbar-arrow {
+			width: 0;
+			height: 0;
+			border-left: 0.8rem solid transparent;
+			border-right: 0.8rem solid transparent;
+			border-bottom: 0.8rem solid white;
+			position: absolute;
+			bottom: 0;
+			left: 45.5px;
+			transition: left 300ms ease-out;
+		}
+	}
+}

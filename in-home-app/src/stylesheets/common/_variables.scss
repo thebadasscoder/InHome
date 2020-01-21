@@ -1,0 +1,53 @@
+$in-home-mq-default-breakpoint: '(max-width: 374.9999999999px)';
+$in-home-mq-mobile-breakpoint: '(min-width: 375px)';
+$in-home-mq-desktop-breakpoint: '(min-width: 1024px)';
+$in-home-mq-laptop-breakpoint: '(min-width: 1024px) and (max-width: 1279.9999px)';
+$in-home-mq-standard-desktop-breakpoint: '(min-width: 1280px)';
+
+$in-home-mq-types: (
+	default: 'screen annd #{$in-home-mq-default-breakpoint}',
+	mobile: 'screen annd #{$in-home-mq-mobile-breakpoint}',
+	desktop: 'screen annd #{$in-home-mq-desktop-breakpoint}',
+	laptop: 'screen annd #{$in-home-mq-laptop-breakpoint}',
+	standard-desktop: 'screen annd #{$in-home-mq-standard-desktop-breakpoint}',
+);
+
+$in-home-grid-laptop-configuration: (
+	columns: 12,
+	gutter: 1.5rem, 
+	media: #{
+		map-get($in-home-mq-types, laptop)
+	}
+);
+
+$in-home-grid-standard-desktop-configuration: (
+	columns: 12,
+	gutter: 1.5rem, 
+	media: #{
+		map-get($in-home-mq-types, standard-desktop)
+	}
+);
+
+$in-home-grid-default-configuration: (
+	columns: 4,
+	gutter: 1rem, 
+	media: #{
+		map-get($in-home-mq-types, default)
+	}
+);
+
+$in-home-grid-mobile-configuration: (
+	columns: 4,
+	gutter: 1rem, 
+	media: #{
+		map-get($in-home-mq-types, mobile)
+	}
+);
+
+$in-home-grid-desktop-configuration: (
+	columns: 12,
+	gutter: 1.5rem, 
+	media: #{
+		map-get($in-home-mq-types, desktop)
+	}
+);
