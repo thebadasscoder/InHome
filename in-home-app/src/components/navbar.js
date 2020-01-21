@@ -29,7 +29,7 @@ class Navbar extends Component {
 	render () {
 		return (
 			<div className="in-home-navbar-page">
-			  <h2 className="in-home-title">You were born to make a <br/> difference.</h2>
+			  <h2 className="in-home-title">You were made to make a <br/> difference.</h2>
 				<nav className="in-home-navbar"> 
 					<a href="#" className="sign-in-link">Sign in</a> 
 					<a href="#" className="sign-up-link">Sign up</a>
