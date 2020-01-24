@@ -2,7 +2,7 @@ import React, { Component } from 'react';
 import '../stylesheets/components/_navbar.scss';
 
 class Navbar extends Component {
-	constructor(props){
+	constructor (props) {
 		super(props);
 		this.state = {
 			username: '',

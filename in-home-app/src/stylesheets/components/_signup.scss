@@ -1,5 +1,9 @@
 @import "../common/_shared.scss";
 
+body,html {
+	background-color: #003087;
+}
+
 .in-home-signup-page {
 	display: flex;
 	justify-content: center;

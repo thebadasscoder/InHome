@@ -5,10 +5,8 @@ import '../stylesheets/components/_signup.scss';
 class Signup extends Component {
 	render () {
 		return (
-			<div className="grid-container">
-				<div className="in-home-signup-page">
+			<div className="in-home-signup-page">
 				<a href="/"><img src={Logo} className="in-home-logo" alt="in-home-logo"/></a> 
-				</div> 
 			</div> 
 		);
 	}

@@ -1,0 +1,89 @@
+@import "../common/_shared.scss";
+
+.in-home-dashboard {
+	@include grid-media($in-home-grid-desktop-configuration){
+
+
+		.in-home-avatar {
+			width: 50px;
+			height: 52px;
+			margin-left: 20rem;
+
+			@include grid-media($in-home-grid-mobile-configuration){
+				margin-left: 20rem;
+			}
+		}
+		.in-home-header-section {
+			display: flex;
+			flex-direction: row;
+			margin-top: -33rem;
+			margin-left: 35rem;
+
+			@include grid-media($in-home-grid-desktop-configuration) {
+				margin-left: 40rem;
+			}
+		}
+
+		.in-home-title {
+			@include in-home-use-font-avenir-next-medium;
+			text-align: center;
+			position: fixed;
+			font-weight: 500;
+			font-size: 24px;
+
+			@include grid-media($in-home-grid-mobile-configuration){
+				margin-left: -10rem;
+			}
+		}
+
+		.dot {
+			height: 5px;
+			width: 5px;
+			background-color: #00F715;
+			border-radius: 50%;
+			display: inline-block;
+			margin: 0.2rem -0.6rem;
+		}
+
+		.in-home-orders-section {
+			margin-left: 5rem;
+			margin-top: -34rem;
+
+			.in-home-order-list {
+				table {
+					width: 100%;
+					table-layout: fixed;
+					margin-top: -1.5rem;
+				}
+
+				tr {
+					th.in-home-table-heading {
+						@include in-home-use-font-avenir-next-medium;
+						padding: 4rem 5rem;
+						color: #000000;
+						font-size: medium;
+						text-align: center;
+					}
+				}
+
+				td {
+					@include in-home-use-font-avenir-next-medium;
+					color: #000000;				
+					font-size: medium;
+					padding: 0.3rem;
+					text-align: center;
+					vertical-align: middle;
+					border-bottom: solid 0rem rgba(255, 255, 255, 0.1);
+				}
+			}
+		}
+	}
+}
+
+a{
+	color: #FFB81C;
+}
+
+a:active {
+	text-decoration: none;
+}

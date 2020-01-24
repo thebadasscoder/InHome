@@ -1,0 +1,29 @@
+@import "../common/_shared.scss";
+
+.in-home-sidebar {
+	width: 127px;
+	height: 100vh;
+	background-color: #003087;
+
+	.sidebar {
+
+		.in-home-sidebar-logo{
+			width: 30px;
+			height: 32px;
+			margin-left: 2.5rem;
+			margin-top: 2rem;
+		}
+
+		.in-home-sidebar-font{
+			display: flex;
+			flex-direction: column;
+			margin-left: 0.6rem;
+			margin-top: 2rem;
+		}
+		.in-home-sidebar-home-icon, .in-home-sidebar-chat-icon, .in-home-sidebar-gear-icon, .in-home-sidebar-logout-icon { 
+			width: 30px;
+			height: 35px;
+			margin: 2rem;
+		}
+	}
+}
