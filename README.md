@@ -2,12 +2,12 @@
 ![Desktop](https://user-images.githubusercontent.com/20372701/73106816-50e93c80-3eca-11ea-97e4-fc8dcc6da207.png)
 
 
-## Goal
+## My Approach For The Challenge 
 
-To build out a web experience where it was not only clean but intuitive for the user. I found joy in designing out this app because it allowed me to create something where it would trigger inspiration for any user to use. 
+To build out a web experience where it was not only clean but intuitive for the user. I find joy in designing and creating new experiences where it can trigger a sense of inspiration for any type user to use. 
 
 
-## Beyond MVP
+## Beyond Challenge MVP 
 
 Beyond the MVP of this challenge, I thought it would have been cool to build the following features in the future: 
 
