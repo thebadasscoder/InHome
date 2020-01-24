@@ -1,6 +1,6 @@
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
-## Available Scripts
+## How To Run The Application 
 
 In the project directory, you can run:
 
@@ -27,12 +27,12 @@ Your app is ready to be deployed!
 
 See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
 
-## GOAL 
+## Goal
 
 To build out a web experience where it was not only clean but intuitive for the user. I found joy in designing out this app because it allowed me to create something where it would trigger inspiration for any user to use. 
 
 
-## BEYOND MVP
+## Beyond MVP
 
 Beyond the MVP of this challenge, I thought it would have been cool to build the following features in the future: 
 
@@ -45,8 +45,9 @@ Beyond the MVP of this challenge, I thought it would have been cool to build the
 * Profile Page - An add-on to the dashboard for users can personalize their profiles to be seen by their other team members. 
 
 
-## Design Resources: Designed completely in Sketch, HTML, Sass, JavaScript 
+## Design
 
+Designed completely in Sketch, HTML, Sass, JavaScript
 * [Sign Up/Sign In Inspiration](https://uimovement.com/design/sign-inupforgot/)
 * [Brand Colors](https://brandpalettes.com/walmart-colors/)
 * [Dashboard Design Inspiration](https://dribbble.com/shots/9622694-Dashboard-Design) 
