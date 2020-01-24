@@ -31,7 +31,8 @@ Designed completely in Sketch, HTML, Sass, JavaScript
 
 ## How To Run The Application 
 
-### CD `in-home-app folder `
+**CD**`in-home-app folder `
+**npm install** to install all modules 
 
 In the project directory, you can run:
 
