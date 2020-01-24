@@ -2,7 +2,7 @@
 ![Desktop](https://user-images.githubusercontent.com/20372701/73106816-50e93c80-3eca-11ea-97e4-fc8dcc6da207.png)
 
 
-## My Approach For The Challenge 
+## Concept 
 
 To build out a web experience where it was not only clean but intuitive for the user. I find joy in designing and creating new experiences where it can trigger a sense of inspiration for any type user to use. 
 
