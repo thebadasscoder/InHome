@@ -27,42 +27,27 @@ Your app is ready to be deployed!
 
 See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
 
-### `npm run eject`
+## GOAL 
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+To build out a web experience where it was not only clean but intuitive for the user. I found joy in designing out this app because it allowed me to create something where it would trigger inspiration for any user to use. 
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
 
-Instead, it will copy all the configuration files and the transitive dependencies (Webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
+## BEYOND MVP
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
+Beyond the MVP of this challenge, I thought it would have been cool to build the following features in the future: 
 
-## Learn More
+* Notifications (Desktop & Mobile) - Added to the dashboard where the users can be notified about the status of an order.
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+* Search Engine - Where it allows users to lookup an order more quickly.  
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+* Chatbot - Where it allows users to easily communicate with customers in real time about their orders.
 
-### Code Splitting
+* Profile Page - An add-on to the dashboard for users can personalize their profiles to be seen by their other team members. 
 
-This section has moved here: https://facebook.github.io/create-react-app/docs/code-splitting
 
-### Analyzing the Bundle Size
+## Design Resources: Designed completely in Sketch, HTML, Sass, JavaScript 
 
-This section has moved here: https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size
+* [Sign Up/Sign In Inspiration](https://uimovement.com/design/sign-inupforgot/)
+* [Brand Colors](https://brandpalettes.com/walmart-colors/)
+* [Dashboard Design Inspiration](https://dribbble.com/shots/9622694-Dashboard-Design) 
 
-### Making a Progressive Web App
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app
-
-### Advanced Configuration
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/advanced-configuration
-
-### Deployment
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/deployment
-
-### `npm run build` fails to minify
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify
