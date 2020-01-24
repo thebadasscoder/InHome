@@ -1,4 +1,5 @@
 import React, { Component } from 'react';
+import { Link } from 'react-router-dom';
 import '../stylesheets/components/_navbar.scss';
 
 class Navbar extends Component {
@@ -25,13 +26,12 @@ class Navbar extends Component {
 	handleSubmit(e) {
 		e.preventDefault();
 	}
-
 	render () {
 		return (
 			<div className="in-home-navbar-page">
 			  <h2 className="in-home-title">You were made to make a <br/> difference.</h2>
 				<nav className="in-home-navbar"> 
-					<a href="#" className="sign-in-link">Sign in</a> 
+					<a href="#" className="sign-in-link">Sign in</a>
 					<a href="#" className="sign-up-link">Sign up</a>
 					<a href="#" className="forgot-link">Forgot</a> 
 					<span className="navbar-arrow"></span>
@@ -50,3 +50,6 @@ class Navbar extends Component {
 }
 
 export default Navbar;
+
+
+//Note: Due to me experiencing some technical difficulties  with react-router and being pressed for time, I was unable to assign each component to a separate page. The Sign Up Component and NavBar Component is what makes up the Signup/SignIn Page that I designed for the app. 

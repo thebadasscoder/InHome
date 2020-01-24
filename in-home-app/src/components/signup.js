@@ -13,3 +13,6 @@ class Signup extends Component {
 }
 
 export default Signup;
+
+
+//Note: Due to me experiencing some technical difficulties with react-router and being pressed for time, I was unable to assign each component to a separate page. The Sign Up Component and NavBar Component is what makes up the Signup/SignIn Page that I designed for the app. 

@@ -1,5 +1,4 @@
 import React, { Component } from 'react';
-
 import Sidebar from '../components/sidebar.js';
 import Modal from '../components/modal.js';
 
@@ -13,12 +12,14 @@ class Dashboard extends Component {
 
 		this.state = {
 			orders: [], 
+			id: 1,
 			show: false
 		}
 	}
 
 	componentDidMount (){ 
 		//MOCK API + GET ORDERS 
+
 		axios.get('https://5e2752de6eeb440014536b4f.mockapi.io/api/v1/orders')
 		.then((response) => {
 			const orders = response.data
@@ -51,7 +52,7 @@ class Dashboard extends Component {
 
 		// //CREATE NEW ORDER 
 
-		// axios.delete(`https://5e2752de6eeb440014536b4f.mockapi.io/api/v1/orders/${this.state.id}`)
+		// axios.post(`https://5e2752de6eeb440014536b4f.mockapi.io/api/v1/orders/${this.state.id}`)
 		// .then((response) => {
 		// 	const orders = response.data
 		// 	this.setState({orders: orders})
@@ -62,7 +63,7 @@ class Dashboard extends Component {
 
 		// //EDIT ORDERS 
 
-		// axios.delete(`https://5e2752de6eeb440014536b4f.mockapi.io/api/v1/orders/${this.state.id}`)
+		// axios.put(`https://5e2752de6eeb440014536b4f.mockapi.io/api/v1/orders/${this.state.id}`)
 		// .then((response) => {
 		// 	const orders = response.data
 		// 	this.setState({orders: orders})
@@ -70,8 +71,6 @@ class Dashboard extends Component {
 		// .catch((error) => {
 		// 	throw error;
 		// })
-
-
 
 	}
 
@@ -92,6 +91,7 @@ class Dashboard extends Component {
 	}
 
 	render () { 
+		console.log(this.state.orders)
 		return (
 			<div className="in-home-dashboard">
 
@@ -127,6 +127,15 @@ class Dashboard extends Component {
 				<div className="in-home-modal-section">
 					<Modal onClose={this.showModal} show={this.state.show}>
 						<div className="in-home-modal-body">
+							<h1 className="static-order-number">Order # 2</h1> 
+							<h2 className="static-order-status"> Status:<p id="in-progress">In Progress</p></h2> 
+							<div className="divider"></div> 
+
+							<ol> 
+								<li>Apples <button className="edit-button">Edit</button>  <button className="delete-button">Delete</button></li> 
+								<li>Bananas <button className="edit-button">Edit</button>  <button className="delete-button">Delete</button></li> 
+							</ol> 
+							<button  className="add-item-button">Add Item</button> 
 						</div>
 					</Modal>
 				</div> 
