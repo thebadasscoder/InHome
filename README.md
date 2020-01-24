@@ -31,6 +31,8 @@ Designed completely in Sketch, HTML, Sass, JavaScript
 
 ## How To Run The Application 
 
+### CD `in-home-app folder `
+
 In the project directory, you can run:
 
 ### `npm start`
